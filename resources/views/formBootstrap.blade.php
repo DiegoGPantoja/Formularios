@@ -55,6 +55,7 @@
                         <label>Edad</label>
                         <input type="text" class="form-control @error('edad') is-invalid @enderror" name="edad" value="{{old('edad')}}">
                         @error('edad')
+                        
                             <span class="invalid-feedback">
                                 <strong>{{$message}}</strong>
                             </span>
