@@ -31,3 +31,4 @@ Route::get('/login', [LoginController::class, 'show']);
 Route::post('/login', [LoginController::class, 'login']);
 
 Route::get('/home', [HomeController::class, 'index']);
+
